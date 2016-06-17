@@ -2,7 +2,7 @@ var a = prompt("enter first number");
 var b = prompt("enter second number");
 var c;
 c = max(a,b);
-alert("largest number is "+c)
+document.write("largest number is "+c"<br>")
 function max(a,b)
 {
 if(a>b)
